@@ -1,0 +1,182 @@
+{
+  "cookies": [
+    {
+      "name": "REFRESH-pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3",
+      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebAccount%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%22vm7epgmftqdfqitwpnu34pzcg7tnf4k6%22%2C%22UID%22%3A%22pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
+      "domain": "account.proton.me",
+      "path": "/api/auth/refresh",
+      "expires": 1701042115.711234,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "REFRESH-z3hfalytsco5tdxervwlgh2dym4bi2fx",
+      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebMail%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%22nk2xcghfjwa6tux2lr6usbancjx35lyt%22%2C%22UID%22%3A%22z3hfalytsco5tdxervwlgh2dym4bi2fx%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
+      "domain": "mail.proton.me",
+      "path": "/api/auth/refresh",
+      "expires": 1701042118.373211,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "AUTH-pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3",
+      "value": "bbe2ri4myrmfjphdcmqhrs5tykzxb7sc",
+      "domain": "account.proton.me",
+      "path": "/api/",
+      "expires": 1701042115.711257,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "AUTH-z3hfalytsco5tdxervwlgh2dym4bi2fx",
+      "value": "ayqwvlh6n535qbzgcbizzhxi7xmx3isd",
+      "domain": "mail.proton.me",
+      "path": "/api/",
+      "expires": 1701042118.373227,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "Session-Id",
+      "value": "Y4KkP6TJJCdkAtcHQUa4vgAAAOc",
+      "domain": ".proton.me",
+      "path": "/",
+      "expires": 1677282118.907233,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Tag",
+      "value": "default",
+      "domain": "account.proton.me",
+      "path": "/",
+      "expires": 1677282117.247688,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Tag",
+      "value": "default",
+      "domain": "account-api.proton.me",
+      "path": "/",
+      "expires": 1677282111.849617,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Tag",
+      "value": "redirect",
+      "domain": "account.protonmail.com",
+      "path": "/",
+      "expires": 1677282115.941021,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Tag",
+      "value": "redirect",
+      "domain": "mail.protonmail.com",
+      "path": "/",
+      "expires": 1677282116.037192,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Tag",
+      "value": "redirect",
+      "domain": "calendar.protonmail.com",
+      "path": "/",
+      "expires": 1677282116.129947,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Tag",
+      "value": "redirect",
+      "domain": "drive.protonmail.com",
+      "path": "/",
+      "expires": 1677282116.262443,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "Tag",
+      "value": "default",
+      "domain": "mail.proton.me",
+      "path": "/",
+      "expires": 1677282118.907266,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Theme",
+      "value": "3",
+      "domain": ".proton.me",
+      "path": "/",
+      "expires": 1704066118.789448,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://account.proton.me",
+      "localStorage": [
+        {
+          "name": "cs",
+          "value": "1"
+        },
+        {
+          "name": "default-persistent",
+          "value": "true"
+        },
+        {
+          "name": "ps-0",
+          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3\",\"isSubUser\":false,\"blob\":\"zpz48hRTpOOMIwl6Tt9JayYMEAm1olM+C/UgeYtt93aF4N9azJzlPUgxzydtUbg68ox7x5FUszP/3WV7M5oKXU6EATmTEpESxQtOgmxj6sFQ\",\"persistent\":true,\"trusted\":false}"
+        }
+      ]
+    },
+    {
+      "origin": "https://mail.proton.me",
+      "localStorage": [
+        {
+          "name": "WelcomePaneEncounteredMessages",
+          "value": "[4]"
+        },
+        {
+          "name": "18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==-display-folders",
+          "value": "false"
+        },
+        {
+          "name": "18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==-display-more-items",
+          "value": "false"
+        },
+        {
+          "name": "dont-ask-desktop-notification",
+          "value": "false"
+        },
+        {
+          "name": "18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==-display-labels",
+          "value": "false"
+        },
+        {
+          "name": "ps-0",
+          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"z3hfalytsco5tdxervwlgh2dym4bi2fx\",\"isSubUser\":false,\"blob\":\"iMlcnt8/tEdM9CChT32L0U6JXDKj8+6Ops0jj7wMRstCCcThz4eI4djzjzEepTLA+09mAEkDanW0pULkceltQWPlbBCgz0tkO3Rta95eXlLe\",\"persistent\":true,\"trusted\":false}"
+        }
+      ]
+    }
+  ]
+}

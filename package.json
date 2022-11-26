@@ -1,0 +1,17 @@
+{
+  "name": "proton-folders-and-labels",
+  "version": "1.0.0",
+  "description": "Testing the folders and labels settings",
+  "scripts": {
+    "test:all": "npx playwright test",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "report": "npx playwright show-report"
+  },
+  "author": "Adam Wood",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}
