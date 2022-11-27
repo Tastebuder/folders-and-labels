@@ -69,6 +69,33 @@ export default class FoldersAndLabelsSettingsPage extends BasePage {
     }
 
     /**
+     * A method to get all the parent folder names
+     * @returns An array of all parent folder names
+     */
+    async getAllParentFolderNames(): Promise<string[]> {
+        const totalItems = await this.folderItems.count();
+        let folderNames: string[] = [];
+        for (let i = 0; i < totalItems; i++) {
+            await this.folderItems.nth(i).getAttribute('title').then((title) => {
+                if (title) folderNames.push(title);
+            });
+        }
+        return folderNames;
+    }
+
+    /**
+     * Click the sort folders button and wait for the network request to complete.
+     */
+    async sortFolders(): Promise<void> {
+        await Promise.all([
+            // Ensure each sort has been processed, as playwright moves too fast
+            this.page.waitForRequest(request => request.url().includes('/order') && request.method() === 'PUT'),
+            this.page.waitForResponse(response => response.url().includes('/api/v4/events') && response.status() === 200),
+            await this.sortFoldersButton.click()
+        ]);
+    }
+
+    /**
      * A method for editing an existing folder
      * @param currentName Pass the name of the folder and if it's a child folder then pass the parent name too e.g. 'parent/child'
      * @param newName Optional new name for the folder
@@ -126,6 +153,33 @@ export default class FoldersAndLabelsSettingsPage extends BasePage {
         await this.colorDropdown.click();
         await this.page.getByTitle(color).click();
         await this.saveButton.click();
+    }
+
+    /**
+     * A method to get all the label names
+     * @returns An array of all label names
+     */
+     async getAllLabelNames(): Promise<string[]> {
+        const totalItems = await this.labelItems.count();
+        let labelNames: string[] = [];
+        for (let i = 0; i < totalItems; i++) {
+            await this.labelItems.nth(i).getByTestId('folders/labels:item-name').getAttribute('title').then((title) => {
+                if (title) labelNames.push(title);
+            });
+        }
+        return labelNames;
+    }
+
+    /**
+     * Click the sort folders button and wait for the network request to complete.
+     */
+     async sortLabels(): Promise<void> {
+        await Promise.all([
+            // Ensure each sort has processed, as playwright moves too fast
+            this.page.waitForRequest(request => request.url().includes('/order') && request.method() === 'PUT'),
+            this.page.waitForResponse(response => response.url().includes('/api/v4/events') && response.status() === 200),
+            await this.sortLabelsButton.click()
+        ]);
     }
 
     /**

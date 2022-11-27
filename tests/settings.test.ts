@@ -98,4 +98,34 @@ test.describe('folders and labels settings', async () => {
             expect(selectedColor).toBe(labelImgColor);
         });
     });
+
+    test.describe('interacting with multiple folders', async () => {
+        test.beforeEach(async () => {
+            await foldersAndLabelsSettingsPage.addFolder('Junk');
+            await foldersAndLabelsSettingsPage.addFolder('Important');
+        });
+
+        test('should sort folders alphabetically', async () => {
+            await foldersAndLabelsSettingsPage.alerts.waitFor({ state: 'hidden' });
+            const expectedFolderOrder = await (await foldersAndLabelsSettingsPage.getAllParentFolderNames()).sort();
+            await foldersAndLabelsSettingsPage.sortFolders();
+            const actualFolderOrder = await foldersAndLabelsSettingsPage.getAllParentFolderNames();
+            expect(actualFolderOrder).toEqual(expectedFolderOrder);
+        });
+    });
+
+    test.describe('interacting with multiple labels', async () => {
+        test.beforeEach(async () => {
+            await foldersAndLabelsSettingsPage.addLabel('Purple', 'Purple');
+            await foldersAndLabelsSettingsPage.addLabel('Copper', 'Copper');
+        });
+
+        test('should sort labels alphabetically', async () => {
+            await foldersAndLabelsSettingsPage.alerts.waitFor({ state: 'hidden' });
+            const expectedLabelOrder = await (await foldersAndLabelsSettingsPage.getAllLabelNames()).sort();
+            await foldersAndLabelsSettingsPage.sortLabels();
+            const actualLabelOrder = await foldersAndLabelsSettingsPage.getAllLabelNames();
+            expect(actualLabelOrder).toEqual(expectedLabelOrder);
+        });
+    });
 });

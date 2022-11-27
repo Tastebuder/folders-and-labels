@@ -1,51 +1,51 @@
 {
   "cookies": [
     {
-      "name": "REFRESH-pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3",
-      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebAccount%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%22vm7epgmftqdfqitwpnu34pzcg7tnf4k6%22%2C%22UID%22%3A%22pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
+      "name": "REFRESH-5ihpl3csehaubzw7scfk24fygx4ebme6",
+      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebAccount%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%2243hw35zuzx3ynxpzeaw4ll2t6vjmxggd%22%2C%22UID%22%3A%225ihpl3csehaubzw7scfk24fygx4ebme6%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
       "domain": "account.proton.me",
       "path": "/api/auth/refresh",
-      "expires": 1701042115.711234,
+      "expires": 1701128166.739963,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Strict"
     },
     {
-      "name": "REFRESH-z3hfalytsco5tdxervwlgh2dym4bi2fx",
-      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebMail%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%22nk2xcghfjwa6tux2lr6usbancjx35lyt%22%2C%22UID%22%3A%22z3hfalytsco5tdxervwlgh2dym4bi2fx%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
+      "name": "REFRESH-6lmbtsxoae2wcyiyju4tbd3hurkup53a",
+      "value": "%7B%22ResponseType%22%3A%22token%22%2C%22ClientID%22%3A%22WebMail%22%2C%22GrantType%22%3A%22refresh_token%22%2C%22RefreshToken%22%3A%2233zkvnour4hjmropju3r4o5abb35csic%22%2C%22UID%22%3A%226lmbtsxoae2wcyiyju4tbd3hurkup53a%22%2C%22RedirectURI%22%3A%22https%3A%5C%2F%5C%2Fmail.proton.me%22%7D",
       "domain": "mail.proton.me",
       "path": "/api/auth/refresh",
-      "expires": 1701042118.373211,
+      "expires": 1701128170.222919,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Strict"
     },
     {
-      "name": "AUTH-pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3",
-      "value": "bbe2ri4myrmfjphdcmqhrs5tykzxb7sc",
+      "name": "AUTH-5ihpl3csehaubzw7scfk24fygx4ebme6",
+      "value": "cvkfrob6sfom72xwlbx5trdok7fkuhd6",
       "domain": "account.proton.me",
       "path": "/api/",
-      "expires": 1701042115.711257,
+      "expires": 1701128166.739986,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Strict"
     },
     {
-      "name": "AUTH-z3hfalytsco5tdxervwlgh2dym4bi2fx",
-      "value": "ayqwvlh6n535qbzgcbizzhxi7xmx3isd",
+      "name": "AUTH-6lmbtsxoae2wcyiyju4tbd3hurkup53a",
+      "value": "zwospt63aayxwan2guziiz5no6ysi526",
       "domain": "mail.proton.me",
       "path": "/api/",
-      "expires": 1701042118.373227,
+      "expires": 1701128170.222947,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Strict"
     },
     {
       "name": "Session-Id",
-      "value": "Y4KkP6TJJCdkAtcHQUa4vgAAAOc",
+      "value": "Y4P0YZ9Ss5x0CElxRHxMDQAAASg",
       "domain": ".proton.me",
       "path": "/",
-      "expires": 1677282118.907233,
+      "expires": 1677368170.806,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -55,7 +55,7 @@
       "value": "default",
       "domain": "account.proton.me",
       "path": "/",
-      "expires": 1677282117.247688,
+      "expires": 1677368169.033338,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -65,7 +65,7 @@
       "value": "default",
       "domain": "account-api.proton.me",
       "path": "/",
-      "expires": 1677282111.849617,
+      "expires": 1677368162.232487,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -75,7 +75,7 @@
       "value": "redirect",
       "domain": "account.protonmail.com",
       "path": "/",
-      "expires": 1677282115.941021,
+      "expires": 1677368167.808843,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -85,7 +85,7 @@
       "value": "redirect",
       "domain": "mail.protonmail.com",
       "path": "/",
-      "expires": 1677282116.037192,
+      "expires": 1677368167.917523,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -95,7 +95,7 @@
       "value": "redirect",
       "domain": "calendar.protonmail.com",
       "path": "/",
-      "expires": 1677282116.129947,
+      "expires": 1677368168.036813,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -105,7 +105,7 @@
       "value": "redirect",
       "domain": "drive.protonmail.com",
       "path": "/",
-      "expires": 1677282116.262443,
+      "expires": 1677368168.165457,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -115,7 +115,7 @@
       "value": "default",
       "domain": "mail.proton.me",
       "path": "/",
-      "expires": 1677282118.907266,
+      "expires": 1677368170.806027,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -125,7 +125,7 @@
       "value": "3",
       "domain": ".proton.me",
       "path": "/",
-      "expires": 1704066118.789448,
+      "expires": 1704152170.679441,
       "httpOnly": false,
       "secure": true,
       "sameSite": "Lax"
@@ -145,7 +145,7 @@
         },
         {
           "name": "ps-0",
-          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"pwa5v2lcu2eqxzxpzzxchiqgl6ashkx3\",\"isSubUser\":false,\"blob\":\"zpz48hRTpOOMIwl6Tt9JayYMEAm1olM+C/UgeYtt93aF4N9azJzlPUgxzydtUbg68ox7x5FUszP/3WV7M5oKXU6EATmTEpESxQtOgmxj6sFQ\",\"persistent\":true,\"trusted\":false}"
+          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"5ihpl3csehaubzw7scfk24fygx4ebme6\",\"isSubUser\":false,\"blob\":\"OZKUiwAgbvQGFJySgwLCC2SJnPkaH2XxOCS/HNakDtDpu81DjFaF7qaIRxiLJGNIuMbvYsshQmBEpVEhtRv2LKWcBToCOuBbfn5FASTFtm7E\",\"persistent\":true,\"trusted\":false}"
         }
       ]
     },
@@ -154,7 +154,7 @@
       "localStorage": [
         {
           "name": "WelcomePaneEncounteredMessages",
-          "value": "[4]"
+          "value": "[19]"
         },
         {
           "name": "18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==-display-folders",
@@ -170,11 +170,11 @@
         },
         {
           "name": "18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==-display-labels",
-          "value": "false"
+          "value": "true"
         },
         {
           "name": "ps-0",
-          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"z3hfalytsco5tdxervwlgh2dym4bi2fx\",\"isSubUser\":false,\"blob\":\"iMlcnt8/tEdM9CChT32L0U6JXDKj8+6Ops0jj7wMRstCCcThz4eI4djzjzEepTLA+09mAEkDanW0pULkceltQWPlbBCgz0tkO3Rta95eXlLe\",\"persistent\":true,\"trusted\":false}"
+          "value": "{\"UserID\":\"18ofaComSBZTZiAF1-zITwjk_Uy8lQYNxVXTVc0g0l-qRQxUVb4bIILZEzguQi-JIX6e9GXAVrXw1425oIyN9Q==\",\"UID\":\"6lmbtsxoae2wcyiyju4tbd3hurkup53a\",\"isSubUser\":false,\"blob\":\"7V7FnTMAWw0B94PK7BtQHQkVGL2vruGxYBezp8/iusSED7ybWF0EuzFxqDdwXNt85b990/jylKZHO0zVyyi1G2xak+VjhGA4+bXYbyLDJyDH\",\"persistent\":true,\"trusted\":false}"
         }
       ]
     }
