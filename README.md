@@ -7,6 +7,8 @@ You can't run in all 3 at the same time because the user account is a free accou
 
 ```npm run test:<browser>```
 
+Tests are also automatically run with each push to master/main or PR to master/main. You can view the results via the Actions tab on Github and download the report.
+
 ## Manually generate report 📚
 ```npm run report```
 

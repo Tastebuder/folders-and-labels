@@ -159,7 +159,7 @@ export default class FoldersAndLabelsSettingsPage extends BasePage {
      * A method to get all the label names
      * @returns An array of all label names
      */
-     async getAllLabelNames(): Promise<string[]> {
+    async getAllLabelNames(): Promise<string[]> {
         const totalItems = await this.labelItems.count();
         let labelNames: string[] = [];
         for (let i = 0; i < totalItems; i++) {
@@ -173,7 +173,7 @@ export default class FoldersAndLabelsSettingsPage extends BasePage {
     /**
      * Click the sort folders button and wait for the network request to complete.
      */
-     async sortLabels(): Promise<void> {
+    async sortLabels(): Promise<void> {
         await Promise.all([
             // Ensure each sort has processed, as playwright moves too fast
             this.page.waitForRequest(request => request.url().includes('/order') && request.method() === 'PUT'),
